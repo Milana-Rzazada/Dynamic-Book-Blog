@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Login/Register</title>
+  
+</head>
+<body>
+  <div class="navbar">
+    <h1>📚 Book Reviews Blog</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./post.html">Add a new one</a>
+      <a href="./new-post.html">Edit</a>
+      <a href="./login.html" id="authLink">Sign in</a>
+      <button id="logoutBtn">Exit</button>
+    </nav>
+</div>
+<section class="login">
+  <div class="login-container">
+    <h2 id="formTitle">Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="handleAuth()">Sign in</button>
+    <div class="switch">
+      <span id="switchText">Don't you have an acoount?</span>
+      <a onclick="toggleForm()">Register</a>
+    </div>
+  </div>
+  </section>
+  <footer>
+    <p>Milana Rzazade 2025 Book Blog</p>
+  </footer>
+
+<script src="./login.js"></script>
+</body>
+</html>
