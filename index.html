@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book reviews</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <section class="slider-container">
+    <div class="slider">
+      <div class="slide active">
+        <img src="./images/3.jpeg" alt="Kitab 1">
+        
+      </div>
+      <div class="slide">
+        <img src="./images/1.png"Kitab 2">
+       
+      </div>
+      <div class="slide">
+        <img src="./images/2.jpg" alt="Kitab 3">
+
+      </div>
+      <div class="slide">
+        <img src="./images/3.jpeg" alt="Kitab 3">
+        
+      </div>
+      <div class="slide">
+        <img src="./images/5.webp" alt="Kitab 3">
+       
+      </div>
+      <div class="slide">
+        <img src="./images/6.webp" alt="Kitab 3">
+       
+      </div>
+     
+    </div>
+
+    <div class="navigation">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+  </header>
+<div class="navbar">
+    <h1>📚 Book Reviews Blog</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./post.html">Add a new one</a>
+      <a href="./post-read.html">Edit</a>
+      <a href="./login.html" id="authLink">Sign in</a>
+      <button id="logoutBtn">Exit</button>
+    </nav>
+</div>
+  <main>
+    <section class="book-list">
+      <h2>BOOK LIST</h2>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Auth</th><th>Genre</th></tr>
+        </thead>
+        <tbody id="bookList"></tbody>
+      </table>
+    </section>
+
+    <section class="review">
+      <h2>REVIEWS</h2>
+      <div id="reviewsContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Milana Rzazade 2025 Book Blog</p>
+  </footer>
+
+  <script src="./index.js"></script>
+  
+</body>
+</html>
