@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add book and review</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+  <div class="navbar">
+    <h1>📚 Book Reviews Blog</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./post.html">Add a new one</a>
+      <a href="./post-read.html">Edit</a>
+      <a href="./login.html" id="authLink">Sign in</a>
+      <button id="logoutBtn">Exit</button>
+    </nav>
+</div>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h2>📗 Add a new book.</h2>
+      <form id="bookForm">
+        <input type="text" id="bookTitle" placeholder="Book's name" required>
+        <input type="text" id="bookAuthor" placeholder="Auth" required>
+        <input type="text" id="bookGenre" placeholder="Genre" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="form-section">
+      <h2>✏️ Add a review</h2>
+      <form id="reviewForm">
+        <input type="text" id="reviewTitle" placeholder="Title" required>
+        <textarea id="reviewContent" placeholder="WRite your review" required></textarea>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Milana Rzazade 2025 Book Blog</p>
+  </footer>
+
+  <script src="./post.js"></script>
+</body>
+</html>
