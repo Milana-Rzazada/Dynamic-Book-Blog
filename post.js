@@ -1,4 +1,3 @@
-// post.js
 window.onload = function() {
   const currentUser = localStorage.getItem("currentUser");
   if (!currentUser) {
